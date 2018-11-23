@@ -1,0 +1,146 @@
+{
+    "accountName" : "Eric",
+    "accountId": "918881839",
+    "accountType": "Joint",
+    "lastLoginDate": "09/06/2018",
+    "lastLoginTime": "10:08 AM PST",
+    "notifications": [
+        {
+            "title": "Line Suspended - Lost or Stolen",
+            "description": "Line (917) 765-1111 has been reported lost or stolen and service has been suspended.",
+            "type": "error",
+            "url": ""
+        },
+        {
+            "title": "Account holder missing",
+            "description": "Your online services are limited because no primary account holder has been designated.",
+            "type": "warning",
+            "url": ""
+        },
+        {
+            "title": "Order in progress",
+            "description": "Your device order #34095582 for line (425) 324-8056 is being processed.",
+            "type": "info",
+            "url": ""
+        },
+        {
+            "title": "Order shipped",
+            "description": "Your device order #34095582 for line (425) 324-8056 is being processed.",
+            "type": "info",
+            "url": ""
+        }
+    ],
+    "paymentDetails": [
+      { 
+        "paymentDueDate": "Sep 04, 2018",
+        "lastPaymentDate": "Aug 03, 2018",
+        "lastPaymentAmount": "154.00",
+        "price": "95",
+        "unit": ".65",
+        "autopayDetails" :[]
+      }
+    ],
+    "iWantToList": [
+        {
+            "image": "https://via.placeholder.com/24x16",
+            "description": "Set up AutoPay and save $20/mo",
+            "url": ""
+        },
+        {
+            "image": "https://via.placeholder.com/24x16",
+            "description": "Check order status",
+            "url": ""
+        },
+        {
+            "image": "https://via.placeholder.com/24x16",
+            "description": "Change my plan",
+            "url": ""
+        },
+        {
+            "image": "https://via.placeholder.com/24x16",
+            "description": "Add a line",
+            "url": ""
+        },
+        {
+            "image": "https://via.placeholder.com/24x16",
+            "description": "Report a lost or stolen device",
+            "url": ""
+        }
+    ],
+    "myLineDetails": {
+        "title": "My line",
+        "number": "(206) 555-1111",
+        "upgradeEarly": true,
+        "url": "",
+        "image": "https://via.placeholder.com/72x141",
+        "data": [
+            {
+                "title": "iPhone 6S",
+                "description": "Rose Gold 64GB"
+            },
+            {
+                "title": "JUMP! On Demand lease",
+                "description": "14 days until upgrade"
+            },
+            {
+                "title": "Simple Choice North America Unlimited Talk & Text",
+                "description": "+2 add-ons"
+            },
+            {
+                "title": "14.9GB data used",
+                "description": "of unlimited high-speed"
+            }
+        ]
+    },
+    "otherDevices": {
+        "title": "Other lines and devices",
+        "url": "",
+        "data": [
+            {
+                "image" :"https://via.placeholder.com/24x48",
+                "name": "Bob",
+                "number": "(206) 555-2222",
+                "upgradeAvailable": true
+            },
+            {
+                "image" :"https://via.placeholder.com/24x48",
+                "name": "Natasha",
+                "number": "(206) 555-3333",
+                "upgradeAvailable": false
+            },
+            {
+                "image" :"https://via.placeholder.com/24x48",
+                "name": "Natasha's iPad",
+                "number": "(206) 555-4444",
+                "upgradeAvailable": false
+            },
+            {
+                "image" :"https://via.placeholder.com/24x48",
+                "name": "John",
+                "number": "(206) 555-5555",
+                "upgradeAvailable": false
+            }
+        ]
+    },
+    "myBenefits": {
+        "title": "My T-Mobile benefits",
+        "url": "",
+        "data": [
+            {
+                "image": "https://via.placeholder.com/96x72",
+                "title": "Netflix On Us",
+                "description": "Binge all your faves for free—it’s included!"
+            },
+            {
+                "image": "https://via.placeholder.com/96x72",
+                "title": "Gogo® In-Flight",
+                "description": "Free in-flight texting + 1 hour of data"
+            },
+            {
+                "image": "https://via.placeholder.com/96x72",
+                "title": "T-Mobile Tuesdays™",
+                "description": "Download the app and #GetThanked"
+            }
+        ]
+    }
+}

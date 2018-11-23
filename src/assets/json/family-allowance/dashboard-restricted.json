@@ -1,0 +1,87 @@
+{
+"name": "Justin" ,
+"billingCycle" : "JUL 27TH - Aug 26TH",
+"restricted" : true,
+"noEdit" : false,
+"message" : "View your Family Allowances progress minutes, downloads, messages, and schedule for the current billing cycle.",
+"allowance": [
+    {
+        "title": "Minutes",
+        "suheading": "View and set calling allowances on managed lines for the current billing cycle.",
+        "allowanceCheck": true,
+        "currentInfo": "No allowance",
+        "usedInfo": "000",
+        "remainingInfo": "No allowance set",
+        "alerts" : []
+    },
+    {
+        "title": "Messages",
+        "suheading": "View and set calling allowances on managed lines for the current billing cycle.",
+        "allowanceCheck": true,
+        "currentInfo": "No allowance",
+        "usedInfo": "000",
+        "remainingInfo": "No allowance set",
+        "alerts" : []
+    },
+    {
+        "title": "Downloads",
+        "suheading": "View and set calling allowances on managed lines for the current billing cycle.",
+        "allowanceCheck": true,
+        "currentInfo": "No allowance",
+        "usedInfo": "000",
+        "remainingInfo": "No allowance set",
+        "alerts" : []
+    }
+],
+"schedule": [
+    { "week": "Monday - Friday",
+      "timeslot" : [{"slot": "9AM - 2PM", "selected": false},{"slot": "4PM - 9PM", "selected":true},{"slot": "9PM - 11PM", "selected":true},{"slot": "11PM - 6AM","selected":false}
+      ]
+    },
+    { "week": "Saturday - Sunday",
+      "timeslot" : [{"slot": "9AM - Noon", "selected":true},{"slot": "Noon - 6PM", "selected":true},{"slot": "6PM - 11PM", "selected":true},{"slot": "11PM - 6AM", "selected":true}
+      ]
+    }
+],
+"selectLine": [
+    { "title": "Samantha"},
+    { "title": "Samuel"},
+    { "title": "Sandra"}
+],
+"parentLine": [
+    { "name": "Natasha"},
+    { "name": "Justin?"},
+    { "name": "Samantha"}
+],
+"allowableNumbers": [
+    {"number": "911", "description": "Emergency Services", "removable": false},
+    {"number": "1-877-453-1304 or 611", "description": "T-Mobile Customer Care", "removable": false},
+    {"number": "(000) 000-0000", "description": "", "removable": true},
+    {"number": "(000) 000-0000", "description": "", "removable": true}
+],
+"neverAllowableNumbers":  [
+    {"number": "(000) 000-0000", "removable": true}
+  ],
+"changeHistory":  [
+    {"name": "JUL 27TH - AUG 26TH",
+    "changes": [
+        {"dateTime":"8/14/2018 10:42AM", "desc":"Whenever minutes changed from 500 to No Allowance"}
+    ]},
+    {"name": "AUG 27TH - SEP 26TH",
+        "changes": [
+        {"dateTime":"09/14/2018 10:42AM", "desc":"Whenever minutes changed from 500 to No Allowance"}
+    ]},
+    {"name": "SEP 27TH - OCT 26TH",
+        "changes": [
+        {"dateTime":"10/14/2018 10:42AM", "desc":"Whenever minutes changed from 500 to No Allowance"}
+    ]},
+    {"name": "OCT 27TH - NOV 26TH",
+        "changes": [
+        {"dateTime":"11/14/2018 10:42AM", "desc":"Whenever minutes changed from 500 to No Allowance"}
+    ]},
+    {"name": "NOV 27TH - DEC 26TH",
+        "changes": [
+        {"dateTime":"09/14/2018 10:42AM", "desc":"Whenever minutes changed from 500 to No Allowance"}
+    ]}
+  ]
+}

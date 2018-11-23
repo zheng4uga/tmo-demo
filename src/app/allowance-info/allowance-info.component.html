@@ -1,0 +1,60 @@
+<div tmo-layout="grid gap-row-none" class="allowances">
+      <div tmo-layout="12 10@md offset-2@md">
+        <div tmo-layout="12" class="inset-divider-1px"></div>
+      </div>
+      <div tmo-layout="12 10@md offset-2@md" tabindex="4"  class="cursor padding-top-small d-flex align-items-center justify-content-between">
+        <span tmo-layout="11" class="display6">{{authoringValue.title}}</span>
+        <span tmo-layout="1" class="float-right cursor arrow-ref" ></span>
+      </div>
+      <div tmo-layout="12 10@md offset-2@md" class="acc-content">
+        <div tmo-layout="12 10@md offset-2@md" class="body-copy padding-top-xsmall">{{authoringValue.subHeading}}</div>
+        <div tmo-layout="12 10@md offset-2@md" class="padding-top-small padding-bottom-small">
+          <span class="checkbox d-inline-flex">
+            <label>
+              <input class="legal" id="checkbox" name="checkbox" type="checkbox">
+              <div class="legal indicator p-t-2-md">
+                <span class="legal check1"  [tabindex]=""></span>
+              </div>
+            </label>
+            <span class="p-l-6 body-bold black margin-top-1px margin-top-2px-md"> {{authoringValue.noAllowanceText}}</span>
+          </span>
+          <span  class="body-copy m-t-2-md p-l-6" >
+            <i class="tooltip-icon m-b-2-md"></i>
+          </span>
+        </div>
+        <div tmo-layout="grid">
+          <div tmo-layout="12" class="inset-divider-1px"></div>
+        </div>
+        <div tmo-layout="grid" class="padding-top-medium padding-bottom-xl">
+          <span tmo-layout="6 4@md offset-1@md 3@lg offset-1@lg" class="body-bold">{{authoringValue.currentAllowanceText}}</span>
+          <!-- <span tmo-layout="6 3@md" class="body-copy" *ngIf="!info.allowanceCheck">{{info.currentInfo}}</span> -->
+          <div tmo-layout="6 3@md">
+            <!-- <div tmo-layout="6 2@md" class="no-padding padding-top-xsmall" *ngIf="inputTextNever.invalid && !inputTextNever.pristine && !inputTextNever.errors?.required"> -->
+            <p tmo-layout="12" class="d-flex justify-content-between padding-top-xsmall">
+              <span tmo-layout="11" class="legal red">Please enter limit</span>
+              <i tmo-layout="1" class="warning-red pull-right padding-left-35 margin-top-base"></i>
+            </p>
+          </div>
+          <!-- </div>         -->
+          <span tmo-layout="6 3@md" class="body-copy">{{authoringValue.noAllowanceText}}</span>
+        </div>
+        <div tmo-layout="grid" class="padding-bottom-xl">
+          <span tmo-layout="6 4@md offset-1@md 3@lg offset-1@lg" class="body-bold">{{authoringValue.allowanceUsedText}}</span>
+          <span tmo-layout="6 3@md" class="body-copy">200</span>
+        </div>
+        <div tmo-layout="grid">
+          <span tmo-layout="6 4@md offset-1@md 3@lg offset-1@lg" class="body-bold padding-bottom-small-xs padding-bottom-small-sm" >{{authoringValue.allowanceRemainingText}}</span>
+          <span tmo-layout="6 4@md" class="body-copy">No allowance set</span>
+        </div>
+        <div tmo-layout="grid gap-none" >
+          <p tmo-layout="offset-1@md 12" class="legal d-flex">
+            <span class="margin-top-base">
+              <span class="red">!Alert: </span> {{authoringValue.limitReachedAlertText}}
+            </span>
+            <span >
+              <i class="tooltip-icon margin-top-base"></i>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>

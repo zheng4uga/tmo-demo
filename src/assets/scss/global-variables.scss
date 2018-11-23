@@ -1,0 +1,68 @@
+/* GLOBAL VARIABLES */
+$smartphones-xxs: 'only screen  and (max-width: 374px)';
+$smartphones-xs: 'only screen  and (max-width: 575px)';
+$smartphones-sm: 'only screen and (min-width: 576px) and (max-width: 767px)';
+$tablets-md: 'only screen and (min-width: 768px) and (max-width: 991px)';
+$desktops-lg: 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$desktops-xl: 'only screen and (min-width: 1200px)';
+$alldeviceexceptsmartphone: 'only screen and (min-width: 768px)';
+$portrait: 'only screen and (orientation:portrait)';
+$landscape: 'only screen and (max-height: 414px) and (orientation:landscape)';
+$smartphones-xs1: 'only screen  and (max-width: 382px)';
+$minismartphones-xs: 'only screen  and (max-width: 340px)';
+$smallphones: 'only screen  and (max-width: 320px)';
+/*Variable declarations start*/
+
+$tele-grotesk-ultr:Tele-Ult;
+$tele-grotesk-fet:Tele-Fet;
+$tele-grotesk-norm:Tele-Nor;
+$tele-grotesk-hal:Tele-Hal;
+$normal:normal;
+$bold:bold;
+$arial:Arial;
+$black: #000000;
+$white:#ffffff;
+$brand-magenta:#e20074;
+$magenta-mid:#f41a8a; //for buttons
+$magenta-light:#f66db3;
+$magenta-dark:#ba0060;
+$magenta-very-dark:#a10053;
+$magenta-very-light:#fffafc;
+$magenta-dark-pressed:#ffebf3;
+$magenta-tertiary-hover:#31071d;
+$magenta-tertiary-pressed:#4c0329;
+$green:#078a14;
+$green-light:#51d85e;
+$red:#e8200d;
+$yellow:#e3b721;
+$gray05:#f8f8f8;
+$gray10:#f2f2f2;
+$gray20:#e8e8e8;
+$gray30:#cccccc;
+$gray40:#9b9b9b;
+$gray60:#6a6a6a;
+$gray65: #a6a6a6; 
+$gray70:#4c4c4c;
+$gray80:#333333;
+$gray85:#262626;
+$xs:8px;
+$s:16px;
+$m:24px;
+$l:32px;
+$xl:40px;
+$xxl:48px;
+$xxxl:56px;
+$base:4px;
+$pointer:pointer;
+$zero:0;
+$none:none;
+$auto:auto;
+$block:block;
+$hidden:hidden;
+$gray:gray;
+$default:default;
+$absolute:absolute;
+$relative: relative; 
+$right:right;
+
+/*Variable declarations end*/

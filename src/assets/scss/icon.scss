@@ -1,0 +1,169 @@
+/*Version 0.0.1*/
+@mixin icons($background) {
+ background: $background no-repeat; 
+}
+
+@mixin icon-height-width($height, $width) {
+  height: $height; 
+  width: $width; 
+}
+.width-height-20 {
+  width: 20px; 
+  height: 20px; 
+}
+
+.arrow-right {
+  @include icons(url('assets/img/svg/icons/ic_keyboard_arrow_right_gray30_24px.svg')); 
+  @extend .width-height-20; 
+}
+
+.arrow-down-disable {
+  @include icons(url('assets/img/svg/icons/arrow-up-disable.svg')); 
+  @extend .width-height-20; 
+  transform: rotate(180deg); 
+}
+
+.arrow-up {
+  @include icons(url('assets/img/svg/icons/arrow-up.svg')); 
+  @extend .width-height-20; 
+}
+
+.exclamation-error {
+  background: url('assets/img/svg/icons/error_red.svg') no-repeat; 
+  color: red; 
+  height: 20px; 
+  margin-top: 4px; 
+  width: 20px; 
+}
+
+.clear-icon {
+  background: url('assets/img/svg/icons/clear-gray.svg') no-repeat; 
+  width: 22px; 
+  height: 22px; 
+}
+
+.clear-icon1 {
+  background: url('assets/img/svg/icons/clear-gray-16.svg') no-repeat; 
+  width:16px; 
+  height:16px; 
+}
+
+.clear-icon-light{
+  background: url('assets/img/svg/icons/clear-lightgray-16.svg') no-repeat; 
+  width:16px; 
+  height:16px;
+  filter: invert(0) !important; 
+}
+
+.warning-red{
+  background: url('assets/img/svg/icons/warning_red_regular-16.svg') no-repeat;
+  height: 16px; 
+  width: 16px;
+}
+
+.search-icon-gray {
+  background: url('assets/img/png/search-icon.png') no-repeat;
+  height: 24px; 
+  width: 24px; 
+}
+
+// write all your media queries here
+
+@media #{$smartphones-xs}, #{$smartphones-sm} {
+  .clear-icon-xs-sm {
+    background: url('assets/img/svg/icons/clear-gray-14.svg') no-repeat; 
+  }
+  .clear-icon-light{
+    background: url('assets/img/svg/icons/clear-lightgray-14.svg') no-repeat; 
+  }
+}
+ 
+.arrow-down {
+  @include icons(url('assets/img/svg/icons/arrow_up_gray.svg'));
+  @extend .width-height-20;
+  transform: rotate(180deg);
+}
+
+.tooltip-icon {
+  @include icons(url('assets/img/svg/icons/ic_tooltip_black_24px.svg')); 
+  @extend .width-height-20; 
+  display: inline-block; 
+}
+
+.clear-icon-black {
+  background: url('assets/img/svg/icons/clear_black.svg') no-repeat; 
+  filter:grayscale(100%); 
+  height: 22px; 
+  width: 22px; 
+}
+
+.arrow-back {
+  @include icons(url('assets/img/svg/icons/back-arrow.svg'));
+  @extend .width-height-20;
+}
+.notification-icon{
+  background: url('assets/img/svg/icons/baseline-notifications-24px.svg') no-repeat;
+  height: 24px; 
+  width: 24px;
+}
+ .notification-icon-magneta{
+ background: url('assets/img/svg/icons/baseline-notifications-magneta.svg') no-repeat;
+ height: 24px; 
+ width: 24px;
+}
+ .notification-icon-grey{
+ background: url('assets/img/svg/icons/baseline-notifications-grey40.svg') no-repeat;
+ height: 24px; 
+ width: 24px;
+ }
+ .warning-icon{
+  background: url('assets/img/svg/icons/baseline-warning-yellow.svg') no-repeat;
+  height: 24px; 
+  width: 24px;
+ }
+.info-icon{
+  background: url('assets/img/svg/icons/outline-info-grey40.svg') no-repeat;
+  height: 24px; 
+  width: 24px;
+  }
+  .error{
+    background: url('assets/img/svg/icons/error.svg') no-repeat;
+  height: 24px; 
+  width: 24px; 
+  }
+  .validation-outline-green{
+    background: url('assets/img/svg/icons/validation-outline-green.svg') no-repeat;
+    height: 24px; 
+    width: 24px; 
+  }
+  
+.person-white {
+  @include icons(url('assets/img/svg/icons/baseline-person-24px-white.svg')); 
+  @extend .width-height-20; 
+}
+
+.arrow-up-white {
+  @include icons(url('assets/img/svg/icons/arrow-up-white.svg')); 
+  @include icon-height-width(16px, 16px); 
+}
+
+.call-white {
+  @include icons(url('assets/img/svg/icons/baseline-call-24px-white.svg')); 
+  @include icon-height-width(24px, 24px); 
+}
+
+.comments-white {
+  @include icons(url('assets/img/svg/icons/round-question_answer-24px-white.svg')); 
+  @include icon-height-width(24px, 24px); 
+}
+
+.search-white {
+  @include icons(url('assets/img/svg/icons/baseline-search-24px-white.svg')); 
+  @include icon-height-width(24px, 24px); 
+}
+
+.menu-white {
+  @include icons(url('assets/img/svg/icons/baseline-menu-24px-white.svg')); 
+  @include icon-height-width(24px, 24px); 
+}
+
